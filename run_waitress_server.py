@@ -2,4 +2,4 @@ import os
 from waitress import serve
 from index import app
 
-serve(app,host="0.0.0.0",port=8080)
+serve(app,host="0.0.0.0",port=8000)
